@@ -2,6 +2,9 @@
   "docs": {
     "Getting Started": ["intro", "download", "help"],
     "Hi, I'm Nibble": ["specs", "included", "first_app"],
-    "API": ["app_structure", "video", "audio", "language"]
+    "Emulator": ["keymap"],
+    "API": ["app_structure", "game_loop", "bouncing_ball", "video", "audio", "input", "language"],
+    "Console Apps": ["first_console_app"],
+    "Frameworks": [ "NOM", "Neact", "MIDI" ]
   }
 }
