@@ -92,3 +92,13 @@ Same as `fill_tri` but writeframe only.
 ## fill_quad`(x1, y1, x2, y2, x3, y3, x4, y4, color)`
 
 Same as `fill_quad` but writeframe only.
+
+## set_cursor`(x, y, w, h, hot_x, hot_y, pal)`
+
+Sets the area defined by `x`, `y`, `w`, `h` as the native cursor when running in
+emulator mode. Uses palette `pal` or defaults to 0.
+
+This allows for a low-latency perception of input even at 30fps.
+
+`hot_x` and `hot_y` are the coordinates inside the selected sprite region that
+will be aligned with the actual cursor. Defaults to `0, 0`.

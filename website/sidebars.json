@@ -3,7 +3,8 @@
     "Getting Started": ["intro", "download", "help"],
     "Hi, I'm Nibble": ["specs", "included", "first_app"],
     "Emulator": ["keymap"],
-    "API": ["app_structure", "game_loop", "bouncing_ball", "video", "audio", "input", "language"],
+    "System Apps": ["app_code", "app_new", "app_ls", "app_mv", "app_cp", "app_touch"],
+    "API": ["app_structure", "game_loop", "bouncing_ball", "video", "audio", "input", "system", "language"],
     "Console Apps": ["first_console_app"],
     "Frameworks": [ "NOM", "Neact", "MIDI" ]
   }

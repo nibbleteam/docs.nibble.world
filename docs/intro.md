@@ -6,6 +6,8 @@ authorURL: https://felipetavares.com
 authorFBID: felipeoluciotavares
 ---
 
+<img  style="image-rendering: pixelated;" width="100%" src="/vid/shell-demo.gif"></img>
+
 Nibble is a handheld gaming console, designed to follow the aesthetics of the
 [Fantasy Console][fc] movement, similar to [PICO-8][pico], [TIC-80][tic],
 [LIKO-12][liko] and many, many others.

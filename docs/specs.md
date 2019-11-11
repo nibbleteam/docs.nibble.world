@@ -14,7 +14,7 @@ Each nibble app can load a single spritesheet of `4096x1024px`.
 
 # Audio
 
-Nibble can output `8 channel` `monophonic` `4OP` FM-Synthesized audio, with an
+Nibble can output `8 channel` `polyphonic`, `monaural` (mono) `4op` FM-Synthesized audio, with an
 optional `per-channel delay` effect.
 
 It is possible to directly connect the Nibble emulator to both a `DAW`, using
