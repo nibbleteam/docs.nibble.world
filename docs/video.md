@@ -93,7 +93,7 @@ Same as `fill_tri` but writeframe only.
 
 Same as `fill_quad` but writeframe only.
 
-## set_cursor`(x, y, w, h, hot_x, hot_y, pal)`
+## mouse_cursor`(x, y, w, h, hot_x, hot_y, pal)`
 
 Sets the area defined by `x`, `y`, `w`, `h` as the native cursor when running in
 emulator mode. Uses palette `pal` or defaults to 0.
