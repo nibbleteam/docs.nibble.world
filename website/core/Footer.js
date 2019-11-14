@@ -65,7 +65,8 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://discord.gg/MSQrmBJ">Join our discord!</a>
+            <a href="https://discord.gg/cszTQk6">Join our discord!</a>
+            <a href="https://discord.gg/MSQrmBJ">Or join our dev discord! (Portuguese)</a>
           </div>
           <div>
             <h5>More</h5>
