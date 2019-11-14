@@ -3,25 +3,17 @@ id: NOM_ref
 title: NOM Reference
 ---
 
-        shadow_color = 0, border_color = 0, background = 0, color = 15,
-        -- Position and size
-        x = 0, y = 0, z = 0, w = 0, h = 0, radius = 0,
-        cmap = {
-            {15, 15},
-            {7, 7},
-        },
-        -- Content
-        content = '', text_align = 'center', vertical_align = 'middle',
-        text_palette = 0,
-        palette = 0,
-        -- Padding
-        padding_top = 0, padding_left = 0, padding_bottom = 0, padding_right = 0,
-
 ## Widget Properties
 
 ## background
 
 Color index for the background, in the range 0-127.
+
+A sprite can be loaded by setting to a table with two entries in the form `{
+sprite_x, sprite_y }`.
+
+A custom sprite can be loaded by setting to a table with four entries in the form `{
+sheet_x, sheet_y, sprite_w, sprite_h }`.
 
 ## cmap
 
@@ -48,6 +40,34 @@ cmap = {
 
 A string of text to be rendered inside the component.
 
+## text_align
+
+Aligns the text horizontally. Can be one of:
+
+- `"left"`
+- `"center"`
+- `"right"`
+
+## vertical_align
+
+Aligns the text vertically. Can be one of:
+
+- `"top"`
+- `"middle"`
+- `"bottom"`
+
+## text_palette
+
+Palette used for drawing text strings.
+
+## paddding_top, padding_bottom, padding_left, padding_right
+
+Offsets the `content` text.
+
+## palette
+
+Palette used for backgrounds.
+
 ## x, y
 
 Position of the Widget.
@@ -56,7 +76,6 @@ Position of the Widget.
 
 Size of the Widget.
 
+## radius
 
-
-
-
+Border radius. Use to get curved borders.

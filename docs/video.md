@@ -5,7 +5,7 @@ title: Drawing Commands
 
 ## clear`(color)`
 
-Clears the entire screen to `color`, which can be a number from 0-128.
+Clears the entire screen to `color`, which can be a number from 0-127.
 
 Numbers from 0 up to 15 are in the first palette, 16-31 in the second etc.
 
