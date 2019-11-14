@@ -13,7 +13,8 @@
       "audio",
       "input",
       "system",
-      "language"
+      "language",
+      "debug"
     ],
     "Console Apps": ["first_console_app"],
     "Frameworks": [ "NOM", "NOM_ref", "Neact", "MIDI" ]

@@ -21,7 +21,7 @@ White/Black shoulder buttons.
 
 ## X/C
 
-Blue/Red shoulder buttons
+Blue/Red face buttons
 
 ## Arrows
 
