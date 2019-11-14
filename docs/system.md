@@ -19,6 +19,19 @@ if app then
 end
 ```
 
+The environment variables `x`, `y`, `width` and `height` control the area of the
+screen which the new app will be allowed to draw.
+
+> WARNING: if the app draws using direct memory writes this is not enough to
+> constrain it to a specific area of the screen.
+
+```lua
+start_app("apps/constrained.nib", {
+    x = 10, y = 10,
+    width = 100, height = 100,
+})
+```
+
 ## stop_app`(pid)`
 
 Stops a given app. If `pid` is 0, stop itself.

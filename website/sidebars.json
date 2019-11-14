@@ -1,11 +1,11 @@
 {
   "docs": {
-    "Getting Started": ["intro", "download", "help"],
+    "Getting Started": ["intro", "download", "help", "issues"],
     "Hi, I'm Nibble": ["specs", "included", "first_app"],
     "Emulator": ["keymap"],
     "System Apps": ["app_code", "app_new", "app_ls", "app_mv", "app_cp", "app_touch"],
     "API": ["app_structure", "game_loop", "bouncing_ball", "video", "audio", "input", "system", "language"],
     "Console Apps": ["first_console_app"],
-    "Frameworks": [ "NOM", "Neact", "MIDI" ]
+    "Frameworks": [ "NOM", "NOM_ref", "Neact", "MIDI" ]
   }
 }

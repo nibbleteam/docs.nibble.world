@@ -153,3 +153,12 @@ local ui = NOM:new({
     end
 }):use('cursor')
 ```
+
+## Using `NOM.parent` and `NOM.self`
+
+NOM is all about acessing parent properties.
+
+When you use `NOM.left` or `NOM.width`, that's just an alias for `NOM.parent.x`
+and `NOM.parent.w`. Any other properties can be accessed this way.
+
+Properties of the Widget itself can be acessed through `NOM.self`.

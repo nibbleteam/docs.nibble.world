@@ -12,7 +12,7 @@ Numbers from 0 up to 15 are in the first palette, 16-31 in the second etc.
 ## sprite`(x, y, sprite_x, sprite_y, palette)`
 
 > WARNING: `sprite_x`, `sprite_y` are NOT in pixels. They are in sprites, which
-> are 8x8.
+> are 16x16.
 
 Draws a sprite found in the spritesheet at `sprite_x`, `sprite_y` in the screen
 at `x`, `y`.
