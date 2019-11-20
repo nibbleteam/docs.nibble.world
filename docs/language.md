@@ -54,6 +54,10 @@ a /= 10
 
 `table.remove` is just `remove`.
 
+### `unwrap`
+
+`unpack` has been renamed to `unwrap`.
+
 ## Added functions
 
 ### `new`
