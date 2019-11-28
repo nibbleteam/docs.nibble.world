@@ -1,28 +1,29 @@
 ---
 id: specs
-title: Nibble Specs
+title: Especificações do Nibble
 ---
 
-# Video
+# Vídeo
 
-Nibble has a `400x240px` screen, which can display `24bit` colors.
+Nibble tem uma tela de `400x240px`, capaz de exibir `24bit` de cor.
 
-You cannot use all those colors at once, since nibble uses `8` `16 colors palettes`
-(totalling to 128 colors).
+Você não pode usar todas essas cores de uma só vez, já que o Nibble
+usa `8 paletas de 16 cores cada` (totalizando 128 cores).
 
-Each nibble app can load a single spritesheet of `4096x1024px`. 
+Cada aplicação Nibble pode carregar uma única spritesheet de `4096x1024px`.
 
-# Audio
+# Áudio
 
-Nibble can output `8 channel` `polyphonic`, `monaural` (mono) `4op` FM-Synthesized audio, with an
-optional `per-channel delay` effect.
+Nibble pode reproduzir áudio sintetizado em FM em `8 canais` `polifônicos`
+em `monaural` (mono) `4op`, com um efeito `per-channel delay` opcional.
 
-It is possible to directly connect the Nibble emulator to both a `DAW`, using
-MIDI, or to a `MIDI controller`.
+É possível conectar o emulador Nibble diretamente a um `DAW`,
+usando MIDI, ou a um `controlador MIDI`.
 
-# Input
+# Entradas
 
-Nibble uses a single `d-pad`, `two face buttons` and `two shoulder buttons` as
-main gaming buttons. There is also a non-programable `pause/menu` button.
+Nibble usa um único botão direcional em cruz `d-pad`, `dois botões de face (face buttons)`
+e `dois botões de ombros (shoulder buttons)` como botões de jogo principais.
+Também há um botão de `pausa/menu` não-programável.
 
-When running in the SDK mode, the Nibble emulator can also handle keyboard and mouse.
+Ao rodar no modo SDK, o Emulador Nibble também pode ser operado por teclado e mouse.
