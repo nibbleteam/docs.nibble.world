@@ -1,6 +1,6 @@
 ---
 id: intro
-title: What is Nibble?
+title: O que é Nibble?
 author: Felipe Tavares
 authorURL: https://felipetavares.com
 authorFBID: felipeoluciotavares
@@ -8,12 +8,13 @@ authorFBID: felipeoluciotavares
 
 <img  style="image-rendering: pixelated;" width="100%" src="/vid/shell-demo.gif"></img>
 
-Nibble is a handheld gaming console, designed to follow the aesthetics of the
-[Fantasy Console][fc] movement, similar to [PICO-8][pico], [TIC-80][tic],
-[LIKO-12][liko] and many, many others.
+Nibble é um console portátil para jogos, projetado para seguir a estética do movimento
+[Fantasy Console][fc], de forma similar ao [PICO-8][pico], [TIC-80][tic],
+[LIKO-12][liko] e muitos, muitos outros.
 
-While it is a real piece of hardware, the SDK and tools to develop and also run
-games are available on _Windows_, _Linux_ and _macOS_.
+Além de contar com um hardware físico real, a SDK e as ferramentas
+para desenvolver e rodar jogos estão disponíveis
+para _Windows_, _Linux_ e _macOS_.
 
 [fc]: https://github.com/paladin-t/fantasy
 [pico]: https://www.lexaloffle.com/pico-8.php 
