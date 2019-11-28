@@ -1,6 +1,6 @@
 ---
 id: issues
-title: Reporting Issues
+title: Relatando Problemas
 ---
 
-If you have any issues, report at [GitHub](https://github.com/nibbleteam/nibble/issues/new).
+Se você encontrar algum problema, por favor relate em nosso [GitHub](https://github.com/nibbleteam/nibble/issues/new).
