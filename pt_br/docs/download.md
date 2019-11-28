@@ -1,6 +1,6 @@
 ---
 id: download
-title: Download Nibble
+title: Baixe o Nibble
 ---
 
-Download the **[latest and greatest Nibble release](https://github.com/nibbleteam/nibble/releases)**!
+Faça o download do **[maior e mais recente release do Nibble](https://github.com/nibbleteam/nibble/releases)**!
