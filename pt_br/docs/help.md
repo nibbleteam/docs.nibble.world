@@ -1,9 +1,8 @@
 ---
 id: help
-title: Getting Help
+title: Obtendo Ajuda
 ---
 
-Pop in by our [Discord Channel][discord] and we will happly answer any questions
-you have!
+Participe do nosso [Canal do Discord][discord] e ficaremos felizes em responder qualquer dúvida!
 
 [discord]: https://discord.gg/MSQrmBJ
