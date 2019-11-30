@@ -1,28 +1,28 @@
 ---
 id: keymap
-title: Keys and Shortcuts
+title: Teclas e Atalhos de Teclado
 ---
 
 ## Ctrl+F
 
-Enter and leave fullscreen mode.
+Entra ou sai do modo de tela cheia.
 
 ## Ctrl+R
 
-Reboot the console.
+Reinicia o console.
 
 ## ESC
 
-Brings up the menu for the current software.
+Exibe o meno para o aplicativo atual.
 
 ## S/D
 
-White/Black shoulder buttons.
+Botões de ombro White/Black.
 
 ## X/C
 
-Blue/Red face buttons
+Botões de Face Blue/Red
 
-## Arrows
+## Setas do teclado
 
-D-Pad
+Direcional D-Pad
