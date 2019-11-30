@@ -1,11 +1,10 @@
 ---
 id: app_structure
-title: App Structure
+title: Estrutura do Aplicativo
 ---
+Aplicativos Nibble são diretórios com uma estrutura bem simples, nomeados com uma extensão `.nib`.
 
-Nibble apps are a simple directory with the extension `.nib`.
-
-Here is an example of what you will find in most apps.
+Eis um exemplo do que você vai encontrar na maioria dos aplicativos:
 
     music.nib/
     ├── assets
@@ -17,19 +16,18 @@ Here is an example of what you will find in most apps.
 
 ## main.lua
 
-This is the only file that is needed. It's the entrypoint for your code.
+Este é o único arquivo necessário. É o ponto de partida para o seu código.
 
-You can have other files, but they must be included from `main.lua`.
+Você pode criar outros arquivos se quiser, mas eles precisam ser incluidos no `main.lua`.
 
 ## assets/
 
-In this directory, all the game data is stored. A game can be created without it.
+Neste diretório estão armazenados todos os dados do seus jogo. Um jogo também pode ser criado sem essa pasta.
 
 ## assets/sheet.png
 
-This is the spritesheet that is automatically loaded when you game starts.
+Esta é a folha de sprites (spritesheet) que é carregada automaticamente quando seu jogo é iniciado.
 
-It can be at most `4096x1024`px in size.
+Ela pode ter `4096x1024`px de tamanho.
 
-When you create an app using `new`, it automatically creates a new sheet for you
-with the default font in it.
+Quando você cria um novo aplicativo usando `new`, ele automaticamente cria uma nova folha para você, com a fonte padrão salva nela.
