@@ -1,44 +1,40 @@
 ---
 id: first_app
-title: Creating your first Nibble App
+title: Criando seu primeiro Aplicativo Nibble
 ---
 
-## The Shell
+## O Shell
 
-When you first run Nibble, this is what you will see:
+Quando você rodar o Nibble pela primeira vez, você verá o seguinte:
 
 <video width="100%" src="/vid/nibble1-conv.mp4" controls></video>
 
-This is the shell, it can be used to run apps.
+Este é o Shell. Ele pode ser usado para rodar aplicativos.
 
-For example, you can use the `ls` app to list the contents of a folder:
+Por exemplo, você pode usar o comando `ls apps` para listar o conteúdo de uma pasta:
 
 <video width="100%" src="/vid/nibble2-conv.mp4" controls></video>
 
-Or the `record` app to record your screen:
+Ou o comando `record` para gravar sua tela:
 
 <video width="100%" src="/vid/nibble3-conv.mp4" controls></video>
 
-## Creating an app
+## Criando um aplicativo
 
-There is an app called `new` which can be used to create apps, you just have to
-tell it what is the name of the app you wish to create:
+Existe um aplicativo chamado `new`, que pode ser usado para criar novos aplicativos. Você só precisa dizer o nome do aplicativo que deseja criar:
 
 <video width="100%" src="/vid/nibble4-conv.mp4" controls></video>
 
-## Coding your app
+## Programando seu aplicativo
 
-Each app needs a function called `draw()` so it can paint anything to the
-screen.
+Cada aplicativo precisa de uma função chamada `draw()` para que ele possa desenhar qualquer coisa na tela.
 
-To create this function in our new game we use the app `code`:
+Para criar esta função em nosso novo jogo, usamos o aplicativo `code`:
 
 <video width="100%" src="/vid/nibble5-conv.mp4" controls></video>
 
-`ESC` can be used to bring up the menu, and S/D keyboard keys are mapped to the
-_black_ and _white_ shoulder buttons and can be used to either exit the menu or
-quit the app while in the menu.
+Você pode usar a tecla `ESC` para exibir o menu. As teclas `S` e `D` são mapeadas para os botões de ombro _black_ e _white_ e podem ser usadas para sair do menu ou para encerrar o seu aplicativo a partir do menu.
 
-To run our app, we just need to type its name:
+Para rodar nosso aplicativo, basta digitarmos o nome dele e digitar `ENTER`:
 
 <video width="100%" src="/vid/nibble6-conv.mp4" controls></video>
