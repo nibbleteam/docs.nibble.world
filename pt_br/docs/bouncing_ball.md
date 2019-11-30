@@ -1,13 +1,13 @@
 ---
 id: bouncing_ball
-title: Bouncing Ball Example 
+title: Exemplo: Bola Saltitante 
 ---
 
-Lets now create a simple bouncing ball example to get a hang of how this works:
+Vamos criar um exemplo simples de bola saltitante para entender como o Nibble funciona:
 
 <video width="100%" src="/vid/ball-conv-speedup.mp4" controls></video>
 
-This is the source code in full:
+Este é o código-fonte completo do aplicativo:
 
 ```lua
 -- Ball info
