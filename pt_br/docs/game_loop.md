@@ -1,10 +1,10 @@
 ---
 id: game_loop 
-title: Game Loop
+title: Loop do Jogo
 ---
 
-A freshly created app will not do anything. There are three functions you can
-define so the app does something visible.
+Um aplicativo recém-criado não fará nada. Existem três funções que você pode definir
+para que o aplicativo faça algo perceptível.
 
 ## draw()
 
@@ -13,7 +13,7 @@ function draw()
 end
 ```
 
-This function can be used to draw on the screen, using Nibble's [drawing commands](docs/video).
+Esta função pode ser usada para desenhar na tela, usando os [comandos de desenho](docs/video) do Nibble.
 
 ## update(dt)
 
@@ -22,13 +22,12 @@ function update(dt)
 end
 ```
 
-Update can be used to move things around on the screen, check for pressed
-buttons or do any work you need which is not drawing to the screen.
+Update pode ser usado para mover coisas na tela, verificar botões pressionados
+ou fazer qualquer outro trabalho que você precise fazer, exceto desenhar na tela.
 
-Notice the `dt` parameter, which is the number of seconds since the last
-`update(dt)` call.
+Perceba o parâmetro `dt`, que é o número de segundos desde a última chamada à função `update(dt)`.
 
-Since nibble runs locked at 30 FPS, you should expect that to always be close to 1/30s.
+Como o Nibble roda a 30 quadros de animação por segundo (30FPS) travados, você deve esperar que esse tempo seja próximo de 1/30s.
 
 ## init()
 
@@ -37,7 +36,6 @@ function init(dt)
 end
 ```
 
-This is the least used function, you probably wont use it untill your project is
-reasonably big.
+Esta é a função menos utilizada. Você provavelmente não a usará até que o seu projeto esteja razoavelmente grande.
 
-It is used to initialize values, for example, loading custom assets or preparing algorithms.
+Esta função serve para inicializar valores. Por exemplo, carregar assets personalizados ou preparar algoritmos.
