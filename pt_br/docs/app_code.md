@@ -3,8 +3,8 @@ id: app_code
 title: Code
 ---
 
-Code can be used to code any app or framework.
+O Code pode ser usado para escrever código para qualquer aplicativo ou framework.
 
-It can also be used to edit other kinds of text files.
+Ele também pode ser usado para editar outros tipos de arquivos de texto.
 
 <video width="100%" src="/vid/code-conv.mp4" controls></video>
