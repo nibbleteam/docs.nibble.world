@@ -1,36 +1,35 @@
 ---
 id: included
-title: What is in the package?
+title: O que vem no pacote?
 ---
 
-After downloading the `.zip` for your platform, you will need to extract it,
-this will create a new folder.
+Depois de baixar o arquivo `zip` para o seu sistema, você precisará extrai-lo.
+Será criada uma nova pasta.
 
-Inside this folder you will find:
+Dentro da pasta você vai encontrar:
 
-- an executable, this is the nibble emulator
-- a `apps/` directory, all your games and system apps are here
-- a `frameworks/` directory, the nibble kernel and system libraries go here
+- um executável, que é o emulador do Nibble
+- Uma pasta `apps/`: todos os seus jogos e aplicações de sistema ficam aqui
+- Uma pasta `frameworks/`: o kernel do Nibble e as bibliotecas de sistema ficam aqui
 
 ## apps/
 
-The `apps/` directory contains all the apps that Nibble uses to create and run
-games.
+A pasta `apps/` contém todas as aplicações que o Nibble usa para criar e rodar jogos.
 
-This includes:
+Isso inclui:
 
-- the boot animation
-- the menu
-- the debug screen
-- the terminal
-- the shell
-- the code editor
+- a animação de inicialização/boot
+- o menu
+- a tela de depuração/debug
+- o terminal
+- o shell
+- o editor de código
 
-and literally everything else that you seen on the Nibble's screen.
+e literalmente tudo o mais que você vê na tela do Nibble.
 
 ## frameworks/
 
-If you want to make some general purpose code that other people will use, this
-is where it should go.
+Se você deseja criar algum código para propósitos gerais que outras pessoas poderão usar,
+esta pasta é para você.
 
-All the default APIs are here.
+Todas as APIs padrão estão nesta pasta.
