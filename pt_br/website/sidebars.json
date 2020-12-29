@@ -3,7 +3,7 @@
     "Getting Started": ["intro", "download", "help", "issues"],
     "Hi, I'm Nibble": ["specs", "included", "first_app"],
     "Emulator": ["keymap"],
-    "System Apps": ["app_code", "app_new", "app_ls", "app_mv", "app_cp", "app_touch"],
+    "System Apps": ["app_edit", "app_code", "app_new", "app_ls", "app_mv", "app_cp", "app_touch"],
     "API": [
       "app_structure",
       "game_loop",

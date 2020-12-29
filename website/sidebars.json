@@ -14,9 +14,11 @@
       "input",
       "system",
       "language",
-      "debug"
+      "debug",
+      "multiplayer"
     ],
     "Console Apps": ["first_console_app"],
+    "Network Multiplayer": ["first_multiplayer_game"],
     "Frameworks": [ "NOM", "NOM_ref", "Neact", "MIDI" ]
   }
 }
